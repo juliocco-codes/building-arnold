@@ -2,8 +2,6 @@
 
 Arnold is a personal health-planning agent. It brings together a longer-term plan, current constraints, wearable trends, calendar context, and a daily record of what actually happened. The goal is not another dashboard. It is better decisions about training, food, recovery, and when to seek professional help.
 
-This is a public blueprint, not a copy of my agent. Every person, plan, measurement, and example is fictional. It contains no health records, credentials, private memory, or medical history.
-
 ## The core design
 
 Keep three layers separate:
@@ -21,7 +19,7 @@ The useful comparison is not today against an ideal person. It is the current pl
 3. Rename `USER.example.md` to `USER.md` and replace the fictional information locally.
 4. Create private files for the current plan and daily log. Never commit completed health files to a public repository.
 5. Begin with manual entries and a daily review. Add wearables only after the basic comparison is useful.
-6. Test with fictional data before connecting a real health service.
+6. Test with sample data before connecting a real health service.
 
 OpenClaw loads workspace skills from `<workspace>/skills/<skill>/SKILL.md`. Check the current [skills documentation](https://docs.openclaw.ai/skills) before installing or changing a skill.
 
@@ -64,9 +62,9 @@ Wearables create useful context but also noise and privacy risk. Start read-only
 
 - `workspace/AGENTS.md`: operating and safety rules.
 - `workspace/SOUL.md`: the agent's stance and tone.
-- `workspace/USER.example.md`: fictional context to replace privately.
+- `workspace/USER.example.md`: example context to replace locally.
 - `workspace/skills/daily-health-review/SKILL.md`: the repeatable review workflow.
-- `examples/daily-health-review.md`: a fictional output.
+- `examples/daily-health-review.md`: an example daily review.
 - `SECURITY.md`: privacy and medical-safety checklist.
 
 ## License
