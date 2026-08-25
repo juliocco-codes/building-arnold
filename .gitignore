@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+openclaw.json
+credentials/
+memory/
+health-data/
+wearable-data/
+daily-log*
+current-plan*
+*.key
+*.pem
+*.token
+*.log
+node_modules/
