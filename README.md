@@ -69,4 +69,4 @@ Wearables create useful context but also noise and privacy risk. Start read-only
 
 ## License
 
-MIT. See `LICENSE`.
+Available for personal and non-commercial use. See `LICENSE` for details.
