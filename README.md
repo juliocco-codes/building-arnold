@@ -21,6 +21,14 @@ The useful comparison is not today against an ideal person. It is the current pl
 5. Begin with manual entries and a daily review. Add wearables only after the basic comparison is useful.
 6. Test with sample data before connecting a real health service.
 
+The included Node.js tools implement two parts of the working system: structured workout logging and detection of calendar events that may require meal planning. They use only the Node.js standard library.
+
+```bash
+npm test
+node src/cli.mjs workout examples/session.json data/workouts.json
+node src/cli.mjs meals examples/calendar-events.json
+```
+
 OpenClaw loads workspace skills from `<workspace>/skills/<skill>/SKILL.md`. Check the current [skills documentation](https://docs.openclaw.ai/skills) before installing or changing a skill.
 
 ## What Arnold should do
@@ -64,6 +72,9 @@ Wearables create useful context but also noise and privacy risk. Start read-only
 - `workspace/SOUL.md`: the agent's stance and tone.
 - `workspace/USER.example.md`: example context to replace locally.
 - `workspace/skills/daily-health-review/SKILL.md`: the repeatable review workflow.
+- `src/health-tools.mjs`: workout validation, atomic logging, and meal-event detection.
+- `src/cli.mjs`: command-line entry point for those tools.
+- `test/`: executable tests for the deterministic layer.
 - `examples/daily-health-review.md`: an example daily review.
 - `SECURITY.md`: privacy and medical-safety checklist.
 

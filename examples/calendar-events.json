@@ -1,0 +1,4 @@
+[
+  { "id": "event-1", "summary": "Dinner with a friend", "start": "2026-08-28T19:00:00Z", "location": "Example Restaurant" },
+  { "id": "event-2", "summary": "Team meeting", "start": "2026-08-28T13:00:00Z", "location": "Office" }
+]

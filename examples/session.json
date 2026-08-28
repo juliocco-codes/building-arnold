@@ -1,0 +1,9 @@
+{
+  "date": "2026-08-28",
+  "session": "Upper body",
+  "recovery_score": 72,
+  "notes": "Felt comfortable throughout.",
+  "exercises": [
+    { "name": "Row", "sets": [{ "set": 1, "reps": 10, "weight_kg": 35 }], "status": "complete" }
+  ]
+}

@@ -9,8 +9,11 @@ health-data/
 wearable-data/
 daily-log*
 current-plan*
+node_modules/
+data/
+state/
 *.key
 *.pem
 *.token
 *.log
-node_modules/
+USER.md
